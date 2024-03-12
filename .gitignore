@@ -1,0 +1,7 @@
+/src/vendor
+/src/wp
+/src/wp-content
+/src/conf/wp-config.php
+/.env
+/src/wp-config.php
+
