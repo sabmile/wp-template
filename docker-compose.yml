@@ -69,6 +69,7 @@ services:
       - php
     image: composer/composer
     container_name: composer 
+    user: "${HOST_UID}:${HOST_GID}"
     ports:
       - "9001:9000"
     volumes:
